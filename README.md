@@ -33,4 +33,4 @@ The dataset used can be downloaded here (Kaggle) - [Click to Download](https://w
 Made with :heart:&nbsp;  by [Sahil Chachra](https://github.com/SahilChachra)
 
 ## :eyes: License
-MIT © [Sahil Chachra]()
+MIT © [Sahil Chachra](https://github.com/SahilChachra/SETI_Image_Classification_Challenege/blob/main/LICENSE)
