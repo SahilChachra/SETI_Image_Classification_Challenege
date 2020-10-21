@@ -9,35 +9,22 @@ Above GIF has been downloaded from Pintrest
   <h4>The classification model has been trained in Python using Tensorflow and Keras in Google Colab</h4>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 
-## :innocent: Motivation
-During the lockdown period of 2020, these streaming platforms gained alot of users! But did you ever think - What all movies are there in these platforms? Which platform  is home to some of the most popular movies with very high IMDB ratings? Which platform provides most family friendly movies? And there are many such similar questions...
+## :star: Brief about the dataset and the solution.
+The dataset has a total of 7000 Images(1000 for each class). In this 5600 images are Train Images(800 per class) and remaining 1400 images are validation images(200 per class). The input images were resized to 192x192 and was passed through ImageDataGenerator to get images which are titlted, zoomed in, etc. The architecture used was ResNet50. All the layers of the architecture were trained which took total 4 hours in Google Colab(GPU allocated was Tesla K80) for 100 epochs with batch size of 64 and 88 iteration per epoch (Iteration = number_of_training_images/Batch_Size).
+Training Accuracy achieved was 79.12% and Validation Accuracy achieved was 77.7%. Also Precision, Recall and F1 score achieved were quite good owing to number of epochs used.
 
-## :star: Features
-<ul>
-    <li>Exploratory Data Analysis</li>
-        <ul>
-            <li>Removed un-neccessary columns</li>
-            <li>Type conversion of few columns</li>
-            <li>Checked Missing Data</li>
-            <li>Little analysis from info of the dataset</li>
-        </ul>
-    <li>Graphs</li>
-        <ul>
-            <li>Number of movies for each age group</li>
-            <li>Number of movies for specific age group in each streaming service</li>
-            <li>Streaming service with movies having 100% Rotten Tomato Score</li>
-            <li>IMDB Ratings Count</li>
-            <li>Number of movies having IMDB >=7.5 in each Streaming Service</li>
-            <li>Count of movies for a given Language</li>
-            <li>Brief on average Duration of Movies</li>
-            <li>Director with most movies across all platforms</li>
-            <li>Movies available in given two platforms</li>
-            <li>Famous Genres</li>
-            <li>Top movies in streaming platform</li>
-        </ul>
-</ul>
+## Output
+<img src=''></img>
+
+## Accuracy Metrices
+### Confusion Matrix
+<img src=''></img>
+
+### Classification Report
+<img src=''></img>
 
 ## :file_folder: Dataset
 The dataset used can be downloaded here (Kaggle) - [Click to Download](https://www.kaggle.com/tentotheminus9/seti-data/home)
