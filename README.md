@@ -1,7 +1,7 @@
 <h1 align="center">SETI Signal Classification - Help find Extra Terrestrial!</h1>
 
 <div align='center'>
-<img src=''><br>
+<img src='https://github.com/SahilChachra/SETI_Image_Classification/blob/main/sampleImages/ufo.gif' width="480" height="360"><br>
 Above GIF has been downloaded from Pintrest
 </div>
 
