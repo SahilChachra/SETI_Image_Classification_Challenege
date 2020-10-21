@@ -17,14 +17,14 @@ The dataset has a total of 7000 Images(1000 for each class). In this 5600 images
 Training Accuracy achieved was 79.12% and Validation Accuracy achieved was 77.7%. Also Precision, Recall and F1 score achieved were quite good owing to number of epochs used.
 
 ## Output
-<img src=''></img>
+<img src='https://github.com/SahilChachra/SETI_Image_Classification/blob/main/sampleImages/op.png'></img>
 
 ## Accuracy Metrices
 ### Confusion Matrix
-<img src=''></img>
+<img src='https://github.com/SahilChachra/SETI_Image_Classification/blob/main/sampleImages/cf_mat.png'></img>
 
 ### Classification Report
-<img src=''></img>
+<img src='https://github.com/SahilChachra/SETI_Image_Classification/blob/main/sampleImages/classification_report.png'></img>
 
 ## :file_folder: Dataset
 The dataset used can be downloaded here (Kaggle) - [Click to Download](https://www.kaggle.com/tentotheminus9/seti-data/home)
