@@ -29,6 +29,9 @@ Training Accuracy achieved was 79.12% and Validation Accuracy achieved was 77.7%
 ## :file_folder: Dataset
 The dataset used can be downloaded here (Kaggle) - [Click to Download](https://www.kaggle.com/tentotheminus9/seti-data/home)
 
+## :book: Kaggle Submission Link
+Check out my latest submission in Kaggle! Click [here](https://www.kaggle.com/sahilchachra/2nd-wow-signal-resnet-50). Thanks! :-D.
+
 ## :heart: Owner
 Made with :heart:&nbsp;  by [Sahil Chachra](https://github.com/SahilChachra)
 
